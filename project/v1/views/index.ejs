@@ -1,0 +1,44 @@
+<% include ./partials/header.ejs %>
+ 
+   <div class="container-fluid">
+        <div class="jumbotron">
+           <div class="row text-center ">
+              <div class="col-md-12 .col-sm-4 col-lg-6 d-inline">
+                
+                    <div  style="font-size: 50px;"><a href="/index">Smart Texts</a>
+                    </div>
+               </div>
+              <div class="col-md-12 .col-sm-4 col-lg-6 d-inline">
+              <div>
+                   <form action="/index" method="POST">
+                        <div class="form-group">
+                            <input class="form-control" type="text" name="textInput" placeholder="Enter your text:)">
+                            <br>
+                            <button type="submit" class="btn btn-success btn-block">Save</button>
+                        </div>
+ 
+                   </form>
+
+  
+                </div>
+                    
+             </div>
+           </div>
+        </div>
+   </div>
+   
+        <div class="container">
+                    
+                    <div class="box1"><h4><%= texts[0].textInput %></h4></div>
+                    <div class="box2"><h4><%= texts[1].textInput %></h4></div>
+          </div>
+          <div class="container">
+                         
+        
+                  <div class="box3"><h4><%= texts[2].textInput %></h4></div>
+                  <div class="box4"><h4><%= texts[3].textInput %></h4></div>
+                 
+          </div>
+        
+        
+ 

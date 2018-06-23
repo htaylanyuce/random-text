@@ -1,0 +1,93 @@
+ 
+.jumbotron
+{
+   background-color: white;
+   border-bottom: dashed 1px;
+   height:  30%;
+    
+}
+.container-fluid
+{
+  text-align: center;
+}
+ 
+.navbar {
+   box-shadow: none;
+   color: black;
+  background-color: white;
+    
+}
+
+ 
+.row
+{
+    background-color: white;
+    
+}
+  
+.box1
+{
+  background-color:  #ccffff;
+  border-radius:20px;
+  display: inline-block;
+  width: 30%;
+  height: 30%;
+  margin-left: 20%;
+  text-align: center;
+ 
+}
+
+.box2
+{
+  background-color: yellow;
+  border-radius:20px;
+  display: inline-block;
+  width: 30%;
+  height: 30%;
+  text-align: center;
+ 
+
+  
+}
+
+.box3
+{
+  background-color:  #ff80ff;
+  border-radius:20px;
+  display: inline-block;
+  width: 30%;
+  height: 30%;
+  margin-left: 20%;
+  text-align: center;
+ 
+}
+
+.box4
+{
+ background-color: orange;
+ border-radius:20px;
+ width: 30%;
+ display: inline-block;
+ height: 30%;
+ text-align: center;
+ 
+}
+.box5
+{
+background-color: orange;
+ border-radius:20px;
+ width: 30%;
+ display: inline-block;
+ height: 30%;
+    
+}
+ 
+h4
+{
+    margin-top: 25%;
+ }
+a
+{
+    color: black;    
+
+}
